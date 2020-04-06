@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cor e imagem de fundo</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+        /*
+        https://www.w3schools.com/css/css_background.asp
+        */
+
+			/*
+			.fundo{
+				background-color: blue;
+			}*/
+
+			body{
+				background-image: url('imagens/yoshi.png');
+
+				/* repeat-x, repeat-y, no-repeat, repeat*/
+				background-repeat: no-repeat;
+
+				/*scrool, fixed*/
+				background-attachment: fixed;
+
+				/*primeiro valor: left, center, right
+				segundo valor: top, center, bottom
+				*/
+				background-position: center bottom;
+			}
+
+			.fundo{
+				background: blue url('imagens/yoshi.png') repeat-x scroll top;
+			}
+
+		</style>
+
+	</head>
+
+	<body class="fundo">
+        
+		<h1>Contéudo de título 1</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Integer facilisis metus tortor, id commodo neque laoreet dictum. 
+		Maecenas ex tortor, lobortis sit amet risus sed, semper dapibus dui. 
+		Nulla porttitor dignissim mi non facilisis. Phasellus malesuada 
+		lectus in odio pellentesque dapibus.</p>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Integer facilisis metus tortor, id commodo neque laoreet dictum. 
+		Maecenas ex tortor, lobortis sit amet risus sed, semper dapibus dui. 
+		Nulla porttitor dignissim mi non facilisis. Phasellus malesuada 
+		lectus in odio pellentesque dapibus.</p>
+
+	</body>
+</html>
