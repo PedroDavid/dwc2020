@@ -1,0 +1,64 @@
+/* ****************************
+Seletor universal - ira selecionar todos os elementos da pagina
+* {
+  border: 1px solid red;
+}
+
+/*****************************
+Seletor de texto
+h1 {
+  color: green;
+}
+
+/*****************************
+Seletor de classe
+.verde {
+  color: green;
+}
+
+
+p.verde {
+  color: green;
+}
+
+
+/*****************************
+Seletor de ID 
+#cabecalho {
+  border: 1px solid blue;
+}
+
+*/
+
+/* ***************************
+Seletor de filho 
+ul > li > span > a {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+/* **************************
+Seletor de descendente - selecionar links que 
+estão dentro de uma DIV, mesmo que ela ñ seja filha da DIV
+div a {
+  color: green;
+}
+
+*/
+
+/* ***************************
+Seletor de irmão adjacente - ira selecionar o proximo
+ñ ira aplicar no anterior, e nem no posterior 
+h1 + p {
+  color: red;
+}
+
+*/
+
+/* ****************************
+Seletor de irmão geral - funciona somente apos o h1 */
+h1 ~ p {
+  color: red;
+}
