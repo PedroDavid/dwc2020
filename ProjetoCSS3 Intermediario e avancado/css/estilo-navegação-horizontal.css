@@ -1,0 +1,58 @@
+/*****************************
+Barra de navegação horizontal*/
+
+div {
+  /*border: 1px solid red;*/
+  /*display: flex;*/
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+ul {
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*width: calc(545px);*/
+  background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+  float: left; /*resolve o problema dos elementos flutuantes
+  em que quando utiliza os elementos flutuantes ele muda o fluxo
+  normal do documento*/
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+ul a {
+  display: block;
+  padding: 0 2em;
+  line-height: 2.2em;
+  text-decoration: none;
+  color: #fff;
+  /*border-left: 1px solid gray; -> podesse utilizar dessa forma
+  mas utlizando uma imagem fica com um efeito melhor*/
+  background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+  /* A classe primeiro remove o divisor do lado esquerdo*/
+  background: none;
+}
+
+ul a:hover {
+  color: #085662;
+  background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+  color: #085662;
+  background: #44cade;
+}
